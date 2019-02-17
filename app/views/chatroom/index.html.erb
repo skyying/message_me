@@ -1,0 +1,39 @@
+<div class="ui grid">
+  <div class="row">
+    <div class="eight wide column">
+      <div class="ui comments">
+        <%= render @messages %>
+      </div>
+  <form class="ui reply form">
+    <div class="field">
+      <textarea></textarea>
+    </div>
+    <div class="ui primary submit labeled icon button">
+      <i class="icon edit"></i> Add Comment
+    </div>
+  </form>
+    </div>   
+    <div class="six wide column">
+      <div class="ui middle aligned selection list">
+        <div class="item">
+          <%= image_tag "helen.jpg", :class => "ui avatar image" %>
+          <div class="content">
+            <div class="header">Helen</div>
+          </div>
+        </div>
+        <div class="item">
+          <%= image_tag "christian.jpg", :class => "ui avatar image" %>
+          <div class="content">
+            <div class="header">Christian</div>
+          </div>
+        </div>
+        <div class="item">
+          <%= image_tag "daniel.jpg", :class => "ui avatar image" %>
+          <div class="content">
+            <div class="header">Daniel</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

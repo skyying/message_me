@@ -49,6 +49,7 @@ GEM
     arel (9.0.0)
     autoprefixer-rails (9.4.7)
       execjs
+    bcrypt (3.1.12)
     bindex (0.5.0)
     bootsnap (1.4.0)
       msgpack (~> 1.0)
@@ -82,6 +83,7 @@ GEM
     ffi (1.10.0)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+    hirb (0.7.3)
     i18n (1.5.3)
       concurrent-ruby (~> 1.0)
     io-like (0.3.0)
@@ -97,7 +99,7 @@ GEM
       tilt
     less-rails-semantic_ui (2.3.1.0)
       less-rails (>= 2.6.0, < 2.8.0)
-    libv8 (3.16.14.19-x86_64-darwin-18)
+    libv8 (3.16.14.19)
     listen (3.1.5)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -212,11 +214,13 @@ PLATFORMS
 
 DEPENDENCIES
   autoprefixer-rails
+  bcrypt
   bootsnap (>= 1.1.0)
   byebug
   capybara (>= 2.15)
   chromedriver-helper
   coffee-rails (~> 4.2)
+  hirb
   jbuilder (~> 2.5)
   less-rails-semantic_ui
   listen (>= 3.0.5, < 3.2)

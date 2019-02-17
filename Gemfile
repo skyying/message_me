@@ -25,6 +25,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'less-rails-semantic_ui'
 gem 'autoprefixer-rails'
 gem 'therubyracer'
+gem 'bcrypt'
+gem 'hirb'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
