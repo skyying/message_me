@@ -1,0 +1,16 @@
+<div class="comment">
+  <a class="avatar">
+    <%= image_tag "helen.jpg", :class => "ui avatar image" %>
+  </a>
+  <div class="content">
+    <a class="author">
+      <p> <%= message.user.username %> </p>
+    </a>
+    <div class="metadata">
+      <div class="date">1 day ago</div>
+    </div>
+    <div class="text">
+      <p> <%= message.body %> </p>
+    </div>
+  </div>
+</div>
